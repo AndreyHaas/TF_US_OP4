@@ -1,4 +1,4 @@
-package aufgaben.input.lösung_3v2;
+package tag01.src.aufgaben.input.lösung_3v2;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

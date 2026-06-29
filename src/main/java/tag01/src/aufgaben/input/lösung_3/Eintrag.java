@@ -1,4 +1,4 @@
-package aufgaben.input.lösung_3;
+package tag01.src.aufgaben.input.lösung_3;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

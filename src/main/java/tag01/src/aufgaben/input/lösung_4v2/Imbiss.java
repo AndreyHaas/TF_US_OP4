@@ -1,4 +1,4 @@
-package aufgaben.input.lösung_4v2;
+package tag01.src.aufgaben.input.lösung_4v2;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

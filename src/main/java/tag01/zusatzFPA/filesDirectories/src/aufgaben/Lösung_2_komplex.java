@@ -1,4 +1,4 @@
-package aufgaben;
+package tag01.zusatzFPA.filesDirectories.src.aufgaben;
 
 /*
 Erstellen Sie eine Klasse namens "DirectoryHandling", die folgende Methoden enthält:

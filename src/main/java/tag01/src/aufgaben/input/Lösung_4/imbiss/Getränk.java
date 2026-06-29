@@ -1,4 +1,4 @@
-package aufgaben.input.Lösung_4.imbiss;
+package tag01.src.aufgaben.input.Lösung_4.imbiss;
 
 /**
  * Spezialisierung von Verkaufsware

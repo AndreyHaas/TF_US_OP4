@@ -1,4 +1,4 @@
-package aufgaben.input;
+package tag01.src.aufgaben.input;
 
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;

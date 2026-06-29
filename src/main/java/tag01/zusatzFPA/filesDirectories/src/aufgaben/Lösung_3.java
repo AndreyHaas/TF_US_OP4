@@ -1,4 +1,4 @@
-package aufgaben;
+package tag01.zusatzFPA.filesDirectories.src.aufgaben;
 
 /*  Schreiben Sie eine Konsolenanwendung, bei der ein Benutzer zwei Dateipfade angeben kann.
     Die Datei des ersten Pfades wird an die Stelle des zweiten Pfades kopiert.

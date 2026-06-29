@@ -1,4 +1,4 @@
-package aufgaben.input.lösung_3v3;
+package tag01.src.aufgaben.input.lösung_3v3;
 
 /*
 Wir haben eine Log-Datei, in der die Zugriffe einzelner User protokolliert werden.

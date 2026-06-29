@@ -14,7 +14,7 @@ Timestamp(humanreadable), Username, IP, URL, Zugriff
 Eine weitere Datei, in der aufgelistet wird, wie oft welcher User der Zugriff verweigert wurde.
  */
 
-package aufgaben.input.lösung_3;
+package tag01.src.aufgaben.input.lösung_3;
 
 import java.io.*;
 import java.nio.file.*;

@@ -1,4 +1,4 @@
-package aufgaben.input;
+package tag01.src.aufgaben.input;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

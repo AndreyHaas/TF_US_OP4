@@ -1,4 +1,4 @@
-package aufgaben.input.lösung_3v3;
+package tag01.src.aufgaben.input.lösung_3v3;
 
 /*
 Es wird der Timestamp(UNIX), Username, IP, URL sowie ob der Zugriff gewährt oder verweigert wurde gespeichert.

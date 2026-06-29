@@ -1,4 +1,4 @@
-package aufgaben.input.Lösung_4.imbiss;
+package tag01.src.aufgaben.input.Lösung_4.imbiss;
 
 /* Sie betreiben einen Imbiss und möchten eine Verwaltungssoftware für die verkauften Waren erstellen.
  * Die Verkaufsware unterteilt sich in Speisen und Getränke. Alle Waren werden in der Basisklasse, von der kein Objekt erstellt werden darf, in einer Liste gespeichert.
