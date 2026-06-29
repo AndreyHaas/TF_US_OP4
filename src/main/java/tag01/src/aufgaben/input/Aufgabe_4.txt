@@ -1,0 +1,17 @@
+/* Sie betreiben einen Imbiss und möchten eine Verwaltungssoftware für die verkauften Waren erstellen.
+ * Die Verkaufsware unterteilt sich in Speisen und Getränke. Alle Waren werden in der Basisklasse, von der kein Objekt erstellt werden darf, in einer Liste gespeichert.
+ * Für alle Waren erfassen Sie die Bezeichnung und den Preis. Speisen bestehen zudem aus einer Auflistung der Zutaten, zu Getränken speichern Sie die Füllmenge in Milliliter.
+ * Alle benötigten Daten werden über Konstruktoren erfasst.
+ * Um alle Waren bequem ausgeben zu können, überschreiben Sie die toString-Methode der Klassen. Dabei vermeiden Sie doppelten Code und beachten die Abkapselung und Trennung von Darstellung und Programmlogik.
+ *
+ * Die Daten zu den Verkaufswaren sollen bei Start des Programmes aus .csv-Dateien geladen werden. Beispiel:
+ * Speisen.csv
+ Burger,4.99,Brötchen,Rindfleisch-Patties,Gurken,Ketchup
+ Pizza Groß,5.99,Pizzateig,Tomatensoße,Käse,Salami
+ * Getränke.csv
+ Cola,1.49,500
+ Fanta,1.49,500
+
+
+ Erweiterung: Es soll auch möglich sein, neue Speisen und Getränke zu erstellen und diese in den Dateien zu speichern.
+ */

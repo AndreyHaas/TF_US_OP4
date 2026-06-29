@@ -1,0 +1,30 @@
+Aufgabe: Logdatei-Analyse
+
+Stellen Sie sich vor, Sie arbeiten an einem System, das Server-Logdateien analysiert. Ihre Aufgabe ist es, eine Java-Anwendung zu erstellen, die eine Logdatei liest, die Anzahl der Fehler zählt und die Ergebnisse in einer neuen Datei speichert.
+
+Details:
+
+    Logdatei lesen:
+        Die Logdatei server.log enthält mehrere Zeilen, von denen einige das Wort “ERROR” enthalten.
+        Jede Zeile repräsentiert ein Ereignis oder eine Nachricht vom Server.
+
+    Fehler zählen:
+        Lesen Sie die Datei Zeile für Zeile.
+        Zählen Sie die Anzahl der Zeilen, die das Wort “ERROR” enthalten.
+
+    Ergebnisse speichern:
+        Speichern Sie das Ergebnis in einer neuen Datei error_summary.txt.
+        Die Datei sollte die Gesamtanzahl der Fehler und die Zeit des Analyseprozesses enthalten.
+
+Beispielinhalt von server.log:
+
+INFO - Server started at 08:00
+ERROR - Connection failed
+INFO - User logged in
+ERROR - Database timeout
+INFO - Server stopped at 09:00
+
+Erwarteter Inhalt von errorSummary.txt:
+
+Anzahl der Fehler: 2
+Analyse durchgeführt am: 2025-05-28 10:57:25

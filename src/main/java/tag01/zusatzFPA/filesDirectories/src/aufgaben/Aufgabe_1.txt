@@ -1,0 +1,4 @@
+Aufgabe 1:
+Schreiben Sie ein Java Programm, welches per Programmcode einen Ordner mit dem Namen "loesung" innerhalb des Projektes erstellt (dort, wo sich auch die Lösung zu dieser Aufgabe befindet).
+Fügen Sie anschließend dem Ordner eine Datei mit dem Namen "Loesung.txt" hinzu.
+

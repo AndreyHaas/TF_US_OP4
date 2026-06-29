@@ -1,0 +1,5 @@
+/*  Schreiben Sie eine Konsolenanwendung, bei der ein Benutzer zwei Dateipfade angeben kann.
+    Die Datei des ersten Pfades wird an die Stelle des zweiten Pfades kopiert.
+    Der Dateiname soll aus dem ersten Pfad automatisch übernommen werden.
+    Fehler sollen abgefangen und entsprechende Meldungen ausgegeben werden.
+*/

@@ -1,0 +1,2 @@
+1661156269 Max Mustermann 192.168.178.42 google.de granted
+1661156577 Erika Mustermann 192.168.178.47 youtube.de denied

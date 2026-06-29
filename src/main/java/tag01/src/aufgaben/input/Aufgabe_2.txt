@@ -1,0 +1,4 @@
+Aufgabe 2:
+
+Filtern Sie aus dem Ergebnistext aus Aufgabe output.Aufgabe_1 alle Satzzeichen heraus und geben Sie diese (die Satzzeichen) in einer Zeile ohne Leerzeichen auf der Konsole aus.
+

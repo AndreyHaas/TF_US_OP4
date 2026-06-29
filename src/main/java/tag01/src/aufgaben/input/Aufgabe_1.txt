@@ -1,0 +1,4 @@
+Aufgabe 1:
+
+Geben Sie den Text aus der Datei von Aufgabe output.Aufgabe_1 (Aufgabe1_output_Lösung.txt aus der Musterlösung) auf der Konsole aus.
+

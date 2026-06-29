@@ -1,0 +1,21 @@
+Wir haben eine Log-Datei, in der die Zugriffe einzelner User protokolliert werden.
+Es wird der Timestamp(UNIX), Username, IP, URL sowie ob der Zugriff gewährt oder verweigert wurde gespeichert.
+
+Beispiel:
+1661156269 Max Mustermann 192.168.178.42 google.de granted
+1661156577 Erika Mustermann 192.168.178.47 youtube.de denied
+
+Die Datei soll eingelesen und als neue Datei mit folgenden Werten als short.csv (delimiter ,) ausgeben werden:
+Username, IP, Zugriff
+Beispiel:
+Max Mustermann,192.168.178.42,granted
+
+und als long.csv (delimiter ,):
+Timestamp(humanreadable), Username, IP, URL, Zugriff
+Beispiel:
+2022-08-22T08:22:57,Erika Mustermann,192.168.178.47,youtube.de,denied
+
+
+Möglicher Lösungsansatz:
+Sie Erstellen eine Klasse "Eintrag", in der die Informationen des Protokolls geladen werden.
+Die Klasse beinhaltet zwei Methoden, welche die Daten passend für short.csv und long.csv ausgeben können.
