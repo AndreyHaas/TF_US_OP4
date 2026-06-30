@@ -84,14 +84,14 @@ public class ArbeitszeitAuswertung {
   }
 
   public static Map<String, Double> berechneGesamtstunden(List<ArbeitszeitEintrag> eintraege) {
-    Map<String, Double> sumMap = new LinkedHashMap<>();
+    Map<String, Double> resultMap = new LinkedHashMap<>();
 
     for (ArbeitszeitEintrag e : eintraege) {
       String key = e.getMitarbeiterId() + ";" + e.getName();
-      sumMap.put(key, sumMap.getOrDefault(key, 0.0) + e.getArbeitsstunden());
+      resultMap.put(key, resultMap.getOrDefault(key, 0.0) + e.getArbeitsstunden());
     }
 
-    return sumMap;
+    return resultMap;
   }
 
   public static double berechneDurchschnitt(List<ArbeitszeitEintrag> eintraege) {
