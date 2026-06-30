@@ -1,0 +1,17 @@
+1) Welche Aussage über den 'FileWriter' in Java ist korrekt?
+
+    D) 'FileWriter' wird verwendet, um Textdaten in Dateien zu schreiben.
+
+----------------------------------------------------------------------------------
+
+2) Was ermöglicht Ihnen die Verwendung eines BufferedReader beim Lesen einer Datei in Java?
+
+    C) Es verbessert die Leistung durch Pufferung und ermöglicht das Lesen ganzer Zeilen auf einmal.
+
+----------------------------------------------------------------------------------
+
+3) Welche Aussage über die Klasse 'InputStream' in Java ist korrekt?
+
+    B) 'InputStream' ist eine abstrakte Klasse, die das Lesen von binären Daten aus verschiedenen Quellen ermöglicht.
+
+----------------------------------------------------------------------------------

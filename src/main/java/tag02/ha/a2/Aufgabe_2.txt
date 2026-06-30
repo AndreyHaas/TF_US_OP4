@@ -1,0 +1,54 @@
+Aufgabenstellung: (Mit Hilfe von ChatGPT erstellt)
+
+Sie haben die Aufgabe, einen Bericht über Bücher aus einer Bibliothek zu erstellen. Jedes Buch wird durch ein 'Book' Objekt repräsentiert, welches folgende Eigenschaften hat:
+
+public class Book {
+    private String title;
+    private String author;
+    private int yearOfPublication;
+    private double price;
+
+    // Konstruktor, Getter und Setter hier implementieren
+}
+
+Ihre Aufgabe besteht darin, verschiedene Berichte unter Verwendung des Stream-Interfaces zu generieren.
+
+1. Erstellen Sie eine Liste von Büchern.
+2. Filtern Sie alle Bücher heraus, die vor dem Jahr 2000 veröffentlicht wurden.
+3. Sortieren Sie die gefilterten Bücher nach ihrem Titel in aufsteigender Reihenfolge.
+4. Erstellen Sie eine neue Liste mit den Titeln dieser Bücher (als Strings).
+5. Berechnen Sie den Durchschnittspreis der gefilterten Liste von Büchern.
+6. Finden Sie das teuerste Buch in der gesamten Kollektion.
+7. Erzeugen Sie eine Map, wobei jeder Autor mit einer Liste seiner Bücher assoziiert ist.
+
+Implementieren Sie für jeden Schritt entsprechende Methoden unter Verwendung des Stream-Interfaces.
+
+Lösungshinweise:
+
+Für diese Aufgaben sollten Ihnen folgende Stream-Operationen bekannt sein:
+- 'filter()'
+- 'sorted()'
+- 'map()'
+- 'collect()'
+- 'Collectors.groupingBy()'
+- 'average()'
+- '{min|max}(Comparator.comparing())'
+
+Hier ein Beispiel für Punkt 2:
+List<Book> books = // Initialisiere deine Buchliste
+List<Book> booksBefore2000 = books.stream()
+      .filter(book -> book.getYearOfPublication() < 2000)
+      .collect(Collectors.toList());
+
+
+Beispieldaten (von ChatGPT generiert):
+new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 24.99);
+new Book("1984", "George Orwell", 1949, 19.84);
+new Book("To Kill a Mockingbird", "Harper Lee", 1960, 18.60);
+new Book("The Catcher in the Rye", "J.D. Salinger", 1951, 15.98);
+new Book("Brave New World", "Aldous Huxley", 1932, 12.80);
+new Book("Der Hobbit", "J.R.R.Tolkien", 1937, 10.75);
+new Book("Der Herr der Ringe", "J.R.R.Tolkien", 1954, 22.90);
+new Book("Stolz und Vorurteil" ,"Jane Austen", 1813, 12.50);
+new Book("Moby Dick", "Herman Melville", 1851, 17.40);
+new Book("Astrophysics for People in a Hurry", "Neil deGrasse Tyson", 2017, 19.50);

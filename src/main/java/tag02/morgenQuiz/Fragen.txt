@@ -1,0 +1,26 @@
+1) Welche Aussage über den 'FileWriter' in Java ist korrekt?
+
+    A) 'FileWriter' wird verwendet, um binäre Daten in Dateien zu schreiben.
+    B) 'FileWriter' ist eine Klasse zum Lesen von Zeichendaten aus einer Datei.
+    C) 'FileWriter' erbt direkt von der Klasse 'OutputStream'.
+    D) 'FileWriter' wird verwendet, um Textdaten in Dateien zu schreiben.
+
+----------------------------------------------------------------------------------
+
+2) Was ermöglicht Ihnen die Verwendung eines BufferedReader beim Lesen einer Datei in Java?
+
+    A) Es ermöglicht das direkte Schreiben binärer Daten auf niedriger Ebene.
+    B) Es bietet eine effiziente Methode zum Schreiben großer Mengen an Textdaten auf einmal.
+    C) Es verbessert die Leistung durch Pufferung und ermöglicht das Lesen ganzer Zeilen auf einmal.
+    D) Es konvertiert automatisch Byte-Datenströme in primäre Datentypwerte wie int oder double.
+
+----------------------------------------------------------------------------------
+
+3) Welche Aussage über die Klasse 'InputStream' in Java ist korrekt?
+
+    A) 'InputStream' wird für die Ausgabe von Textdaten auf Konsolen oder Dateien verwendet.
+    B) 'InputStream' ist eine abstrakte Klasse, die das Lesen von binären Daten aus verschiedenen Quellen ermöglicht.
+    C) 'InputStream' bietet Methoden zum direkten Schreiben in Dateien ohne Zwischenspeicherung.
+    D) Die Klasse 'InputStream' konvertiert automatisch binäre Daten in Objekte höherer Java-Klassen.
+
+----------------------------------------------------------------------------------

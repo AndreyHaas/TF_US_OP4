@@ -1,0 +1,126 @@
+Übungsaufgabe: Verarbeitung von Mitarbeiterzeiten aus einer Textdatei (Von ChatGPT erstellt)
+
+Ausgangssituation (Praxisbezug)
+In einem Unternehmen wird die Arbeitszeit der Mitarbeitenden über ein internes Zeiterfassungssystem erfasst.
+Für Auswertungen stellt das System täglich einen Textdatei-Export bereit, der von anderen Anwendungen weiterverarbeitet wird.
+Sie sollen eine Java-Konsolenanwendung entwickeln, die diese Exportdatei einliest, die Daten strukturiert aufbereitet und eine einfache Auswertung erzeugt.
+
+Ziel der Aufgabe
+Sie entwickeln eine Konsolenanwendung in Java, die:
+
+Daten aus einer Textdatei einliest
+diese Daten in Klassenobjekte überführt
+eine Collection zur Verwaltung der Daten verwendet
+Kapselung korrekt umsetzt
+einfache Stringverarbeitung durchführt
+eine Auswertung auf der Konsole ausgibt
+
+
+Dateiformat (Eingabedatei)
+Die Datei arbeitszeiten.csv enthält pro Zeile einen Eintrag im folgenden Format:
+MitarbeiterID;Name;Datum;Arbeitsstunden
+
+Beispiel:
+1001;Müller;2026-05-06;8.0
+1002;Al-Hassan;2026-05-06;7.5
+1003;Kovalenko;2026-05-06;8.0
+1004;Klein;2026-05-06;6.0
+
+
+Fachliche Anforderungen
+1. Klassenstruktur
+Erstellen Sie mindestens folgende Klasse:
+ArbeitszeitEintrag
+Attribute (privat):
+
+int mitarbeiterId
+String name
+LocalDate datum
+double arbeitsstunden
+
+Vorgaben:
+
+Verwenden Sie Kapselung (private Attribute, öffentliche Getter).
+Implementieren Sie einen passenden Konstruktor.
+toString() überschreiben.
+
+
+2. Einlesen und Verarbeiten der Datei
+
+Lesen Sie die Datei zeilenweise ein.
+Zerlegen Sie jede Zeile mithilfe der String-Methoden (z.B. split).
+Wandeln Sie die Werte in die passenden Datentypen um.
+Erzeugen Sie pro Zeile ein ArbeitszeitEintrag-Objekt.
+Speichern Sie alle Objekte in einer Collection (z.B. ArrayList).
+
+
+3. Auswertung
+Ihre Anwendung soll folgende Auswertungen durchführen:
+
+Gesamtarbeitszeit pro Mitarbeiter
+
+Summieren Sie die Arbeitsstunden je Mitarbeiter.
+
+
+Konsolenausgabe in verständlicher Form, z.B.:
+
+Arbeitszeitauswertung:
+
+Müller (ID: 1001): 14.0 Stunden
+Al-Hassan (ID: 1002): 7.5 Stunden
+Kovalenko (ID: 1003): 8.0 Stunden
+
+
+Technische Anforderungen
+
+Konsolenanwendung (kein GUI)
+Java SE (z.B. Java 17 oder höher)
+Verwendung von:
+
+Klassen und Objekten
+Collections (List, optional Map)
+Kapselung
+Stringverarbeitung
+Datei-I/O (BufferedReader, Files, o.Ä.)
+
+
+
+Erweiterungen (optional)
+Falls Sie schneller fertig sind oder die Aufgabe vertiefen möchten:
+
+Sortieren Sie die Ausgabe alphabetisch nach Namen.
+Filtern Sie nach einem bestimmten Datum.
+Fangen Sie mögliche Ausnahmen mit try-catch ab.
+Lagern Sie die Auswertungslogik in eine separate Klasse aus.
+
+
+Lernziele
+Nach Abschluss dieser Aufgabe sollten Sie in der Lage sein:
+
+einfache reale Anforderungen in Klassen zu übersetzen
+Textdateien strukturiert zu verarbeiten
+Collections sinnvoll einzusetzen
+sauberen, gut wartbaren Java-Code zu schreiben
+
+
+arbeitszeiten.csv
+
+MitarbeiterID;Name;Datum;Arbeitsstunden
+1001;Müller;2026-05-06;8.0
+1002;Al-Hassan;2026-05-06;7.5
+1003;Kovalenko;2026-05-06;8.0
+1004;Klein;2026-05-06;6.0
+1001;Müller;2026-05-07;7.5
+1002;Al-Hassan;2026-05-07;8.0
+1003;Kovalenko;2026-05-07;7.0
+1004;Klein;2026-05-07;8.0
+1001;Müller;2026-05-08;6.0
+1002;Al-Hassan;2026-05-08;7.5
+1003;Kovalenko;2026-05-08;8.0
+1001;Müller;2026-05-09;7.0
+1002;Al-Hassan;2026-05-09;4.0
+1004;Klein;2026-05-09;5.5
+1001;Müller;2026-05-10;7.0
+1002;Al-Hassan;2026-05-10;8.0
+1003;Kovalenko;2026-05-10;8.0
+1004;Klein;2026-05-10;7.5

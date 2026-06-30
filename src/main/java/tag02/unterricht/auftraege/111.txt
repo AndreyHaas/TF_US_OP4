@@ -1,0 +1,4 @@
+Auftragsnummer: 111
+Bezeichnung: Einkauf
+Datum: 30.06.2026
+Preis: 824,24 € 
