@@ -73,16 +73,15 @@ public class BookReport {
   }
 
   private static List<Book> filterBooksBefore2000(List<Book> books) {
-    return books.stream().filter(book -> book.getYearOfPublication() < 2000)
-        .collect(Collectors.toList());
+    return books.stream().filter(book -> book.getYearOfPublication() < 2000).toList();
   }
 
   private static List<Book> sortBooksByTitle(List<Book> books) {
-    return books.stream().sorted(Comparator.comparing(Book::getTitle)).collect(Collectors.toList());
+    return books.stream().sorted(Comparator.comparing(Book::getTitle)).toList();
   }
 
   private static List<String> getBookTitles(List<Book> books) {
-    return books.stream().map(Book::getTitle).collect(Collectors.toList());
+    return books.stream().map(Book::getTitle).toList();
   }
 
   private static OptionalDouble calculateAveragePrice(List<Book> books) {
