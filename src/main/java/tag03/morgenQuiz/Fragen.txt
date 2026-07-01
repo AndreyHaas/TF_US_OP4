@@ -1,0 +1,23 @@
+1) Welche Operation der Java Stream API kann verwendet werden, um aus einer Liste von Elementen diejenigen zu filtern, die einer bestimmten Bedingung entsprechen?
+
+    A) map()
+    B) collect()
+    C) filter()
+    D) forEach()
+
+----------------------------------------------------------------------------------
+2) Welche Methode würden Sie verwenden, um sicherzustellen, dass alle gepufferten Ausgabedaten tatsächlich auf den physischen Datenträger geschrieben werden, wenn Sie mit einem OutputStream arbeiten?
+
+    A) write()
+    B) flush()
+    C) close()
+    D) read()
+
+----------------------------------------------------------------------------------
+
+3) Was ist das Ergebnis der Terminaloperation 'collect(Collectors.toList())' in einem Java Stream?
+
+    A) Es führt eine Reduktion auf den Elementen des Streams durch und gibt einen optionalen Wert zurück.
+    B) Es gruppiert die Elemente des Streams nach einem bestimmten Kriterium.
+    C) Es wandelt den Stream in eine Liste von Elementen um.
+    D) Es sortiert die Elemente des Streams basierend auf ihrer natürlichen Ordnung oder einem bereitgestellten Comparator.

@@ -1,0 +1,19 @@
+Aufgabe: Wetterdaten-Server mit Datenauswertung
+
+Erstellen Sie einen Wetterdaten-Server, der von Clients gesendete Wetterdaten empfängt, diese Auswertet und das Ergebnis der Auswertung an die Clients zurücksendet. Verwenden Sie die Java Stream-API, um die Daten zu verarbeiten und zu analysieren.
+
+Anforderungen
+
+    Server:
+        Implementieren Sie einen Server, der auf einem bestimmten Port auf eingehende Verbindungen wartet.
+        Der Server soll Wetterdaten (z.B. Temperatur) von einem Client empfangen können.
+        Verwenden Sie die Stream-API, um die empfangenen Daten auszuwerten und statistische Informationen zu berechnen, wie z.B.:
+            Durchschnittstemperatur
+            Maximale und minimale Temperatur
+        Diese Daten werden zurück an den Client gesendet.
+
+    Client:
+        Implementieren Sie einen Client, der sich mit dem Server verbindet.
+        Der Client soll Wetterdaten an den Server senden können.
+        Diese Wetterdaten werden aus einer Datei gelesen.
+        Der Client soll die aggregierten statistischen Informationen vom Server erhalten und anzeigen können.

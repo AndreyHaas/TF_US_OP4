@@ -1,0 +1,9 @@
+Erweitern Sie das Client-Server-Beispiel aus der Vorlesung durch weitere Befehle, die an den Server gesendet werden können.
+
+Befehle könnten zum Beispiel sein:
+Aktuelle Uhrzeit des Servers
+Working Directory des Servers
+Eine Auflistung der Dateien und Ordner im Verzeichnis des Servers
+
+Weitere mögliche Erweiterung des Programms:
+Der Server protokolliert alle empfangenen Befehle in einer Datei.

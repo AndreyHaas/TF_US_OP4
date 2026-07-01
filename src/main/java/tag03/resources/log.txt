@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-20T06:44:48.780986300Z</date>
+  <millis>1750401888780</millis>
+  <nanos>986300</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>list</message>
+</record>
+<record>
+  <date>2025-06-20T06:45:09.358750700Z</date>
+  <millis>1750401909358</millis>
+  <nanos>750700</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>files</message>
+</record>
+<record>
+  <date>2025-06-20T06:45:12.843745200Z</date>
+  <millis>1750401912843</millis>
+  <nanos>745200</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>time</message>
+</record>
+<record>
+  <date>2025-06-20T06:45:50.171482100Z</date>
+  <millis>1750401950171</millis>
+  <nanos>482100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>get log.txt</message>
+</record>
+<record>
+  <date>2025-06-20T06:46:32.093319100Z</date>
+  <millis>1750401992093</millis>
+  <nanos>319100</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>get resources/protokoll.txt</message>
+</record>
+<record>
+  <date>2025-06-20T06:48:18.624926300Z</date>
+  <millis>1750402098624</millis>
+  <nanos>926300</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>stop</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-20T06:49:25.640697200Z</date>
+  <millis>1750402165640</millis>
+  <nanos>697200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.net.SocketException: Connection reset</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-07-24T06:22:52.100691600Z</date>
+  <millis>1753338172100</millis>
+  <nanos>691600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Hallo Server</message>
+</record>
+<record>
+  <date>2025-07-24T06:23:16.601371100Z</date>
+  <millis>1753338196601</millis>
+  <nanos>371100</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>time</message>
+</record>
+<record>
+  <date>2025-07-24T06:23:24.976028400Z</date>
+  <millis>1753338204976</millis>
+  <nanos>28400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>dir</message>
+</record>
+<record>
+  <date>2025-07-24T06:23:40.913219500Z</date>
+  <millis>1753338220913</millis>
+  <nanos>219500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>files</message>
+</record>
+<record>
+  <date>2025-07-24T06:24:05.022590700Z</date>
+  <millis>1753338245022</millis>
+  <nanos>590700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>get 30_Sockets.iml</message>
+</record>
+<record>
+  <date>2025-07-24T06:24:25.038205600Z</date>
+  <millis>1753338265038</millis>
+  <nanos>205600</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>get resources/log.txt</message>
+</record>
+<record>
+  <date>2025-07-24T06:25:14.600626200Z</date>
+  <millis>1753338314600</millis>
+  <nanos>626200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.net.SocketException: Connection reset</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-07-24T06:28:42.803517Z</date>
+  <millis>1753338522803</millis>
+  <nanos>517000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.net.SocketException: Connection reset</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-05-15T06:33:45.018152600Z</date>
+  <millis>1778826825018</millis>
+  <nanos>152600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>hallo server</message>
+</record>
+<record>
+  <date>2026-05-15T06:35:00.518175200Z</date>
+  <millis>1778826900518</millis>
+  <nanos>175200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>time</message>
+</record>
+<record>
+  <date>2026-05-15T06:35:12.534099300Z</date>
+  <millis>1778826912534</millis>
+  <nanos>99300</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>dir</message>
+</record>
+<record>
+  <date>2026-05-15T06:35:48.018261700Z</date>
+  <millis>1778826948018</millis>
+  <nanos>261700</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>get /resources/wetterdaten.csv</message>
+</record>
+<record>
+  <date>2026-05-15T06:36:07.179627500Z</date>
+  <millis>1778826967179</millis>
+  <nanos>627500</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>files</message>
+</record>
+<record>
+  <date>2026-05-15T06:36:59.268748500Z</date>
+  <millis>1778827019268</millis>
+  <nanos>748500</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>get /morgenquiz/fragen.txt</message>
+</record>
+<record>
+  <date>2026-05-15T09:50:08.956834Z</date>
+  <millis>1778838608956</millis>
+  <nanos>834000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>aufgaben.lösung_1v2.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.net.SocketException: Connection reset</message>
+</record>
+</log>
