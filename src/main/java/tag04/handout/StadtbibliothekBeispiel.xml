@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliothek>
+  <metadaten>
+    <name>Stadtbibliothek Wuppertal</name>
+    <adresse>
+      <strasse>Neumarkt 1</strasse>
+      <ort>Wuppertal</ort>
+      <postleitzahl>42103</postleitzahl>
+    </adresse>
+    <oeffnungszeiten>
+      <tag>Montag-Freitag</tag>
+      <zeit>10:00-18:00</zeit>
+    </oeffnungszeiten>
+  </metadaten>
+  <buecher>
+    <buch id="ISBN-978-3-16-148410-0" kategorie="Belletristik">
+      <titel sprache="de">Der Schatten des Windes</titel>
+      <autor>
+        <vorname>Carlos Ruiz</vorname>
+        <nachname>Zafón</nachname>
+      </autor>
+      <verlag>S. Fischer Verlag</verlag>
+      <jahr>2001</jahr>
+      <seiten>560</seiten>
+      <preis waehrung="EUR">24.99</preis>
+      <verfuegbarkeit>
+        <anzahl gesamt="5" verliehen="2" />
+      </verfuegbarkeit>
+      <rezensionen>
+        <rezension autor="Leseratte123" datum="2024-03-15">Ein fesselnder Roman mit einer tollen Atmosphäre.</rezension>
+      </rezensionen>
+    </buch>
+    <buch id="ISBN-978-0-321-76572-3" kategorie="Science Fiction">
+      <titel sprache="en">Dune</titel>
+      <autor>
+        <vorname>Frank</vorname>
+        <nachname>Herbert</nachname>
+      </autor>
+      <verlag>Ace Books</verlag>
+      <jahr>1965</jahr>
+      <seiten>604</seiten>
+      <preis waehrung="USD">15.50</preis>
+      <verfuegbarkeit>
+        <anzahl gesamt="3" verliehen="3" />
+      </verfuegbarkeit>
+      <auszeichnungen>
+        <auszeichnung jahr="1966">Hugo Award</auszeichnung>
+        <auszeichnung jahr="1966">Nebula Award</auszeichnung>
+      </auszeichnungen>
+    </buch>
+    <buch id="ISBN-978-3-499-23736-3" kategorie="Sachbuch">
+      <titel sprache="de">Die Kunst des klaren Denkens</titel>
+      <autor>
+        <vorname>Rolf</vorname>
+        <nachname>Dobelli</nachname>
+      </autor>
+      <verlag>Hanser</verlag>
+      <jahr>2011</jahr>
+      <seiten>368</seiten>
+      <preis waehrung="EUR">19.95</preis>
+      <verfuegbarkeit>
+        <anzahl gesamt="7" verliehen="1" />
+      </verfuegbarkeit>
+      <schlagwoerter>
+        <schlagwort>Kognitive Verzerrungen</schlagwort>
+        <schlagwort>Psychologie</schlagwort>
+      </schlagwoerter>
+    </buch>
+  </buecher>
+</bibliothek>

@@ -1,0 +1,55 @@
+{
+  "id": "PROD-47892",
+  "name": "Premium Bluetooth Over-Ear Kopfhörer",
+  "beschreibung": "Hochwertige kabellose Kopfhörer mit aktiver Geräuschunterdrückung und exzellentem Klang.",
+  "kategorie": "Audio",
+  "unterkategorie": "Kopfhörer",
+  "marke": "Sony",
+  "modell": "WH-1000XM5",
+  "preis": {
+    "waehrung": "EUR",
+    "wert": 349.99
+  },
+  "bewertungen": [
+    {
+      "benutzer": "Musikliebhaber",
+      "sterne": 5,
+      "kommentar": "Fantastischer Klang und sehr bequemer Tragekomfort."
+    },
+    {
+      "benutzer": "Technikexperte",
+      "sterne": 4,
+      "kommentar": "Die Geräuschunterdrückung ist beeindruckend, die Akkulaufzeit könnte etwas länger sein."
+    }
+  ],
+  "eigenschaften": {
+    "treibergroesse": "40 mm",
+    "frequenzbereich": "4 Hz - 40.000 Hz",
+    "impedanz": "32 Ohm",
+    "akkulaufzeit": {
+      "ohneGeräuschunterdrückung": "40 Stunden",
+      "mitGeräuschunterdrückung": "30 Stunden"
+    },
+    "bluetoothVersion": "5.2",
+    "unterstuetzteCodecs": ["LDAC", "AAC", "SBC"],
+    "gewicht": "250 g"
+  },
+  "lieferumfang": [
+    "Kopfhörer",
+    "Transportetui",
+    "USB-C Ladekabel",
+    "Audiokabel (3.5 mm)",
+    "Flugzeugadapter"
+  ],
+  "verfuegbarkeit": {
+    "lagerbestand": 150,
+    "lieferzeit": "2-3 Werktage"
+  },
+  "bilder": [
+    {"url": "https://example.com/bilder/kopfhoerer-schwarz-1.jpg", "altText": "Schwarze Kopfhörer, Seitenansicht"},
+    {"url": "https://example.com/bilder/kopfhoerer-schwarz-2.jpg", "altText": "Schwarze Kopfhörer, Detail Ohrmuschel"}
+  ],
+  "istImAngebot": true,
+  "angebotspreis": 299.99,
+  "zuletztGesehen": "2024-04-07T08:55:00Z"
+}

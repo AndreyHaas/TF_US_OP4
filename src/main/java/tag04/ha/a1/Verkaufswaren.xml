@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waren>
+  <speise>
+    <bezeichnung>Burger</bezeichnung>
+    <preis>4.99</preis>
+    <zutaten>
+      <zutat>Brötchen</zutat>
+      <zutat>Rindfleisch-Patties</zutat>
+      <zutat>Gurken</zutat>
+      <zutat>Ketchup</zutat>
+    </zutaten>
+  </speise>
+  <speise>
+    <bezeichnung>Pizza Groß</bezeichnung>
+    <preis>5.99</preis>
+    <zutaten>
+      <zutat>Pizzateig</zutat>
+      <zutat>Tomatensoße</zutat>
+      <zutat>Käse</zutat>
+      <zutat>Salami</zutat>
+    </zutaten>
+  </speise>
+  <getraenk>
+    <bezeichnung>Cola</bezeichnung>
+    <preis>1.49</preis>
+    <fuellmenge>500</fuellmenge>
+  </getraenk>
+  <getraenk>
+    <bezeichnung>Fanta</bezeichnung>
+    <preis>1.49</preis>
+    <fuellmenge>500</fuellmenge>
+  </getraenk>
+</waren>

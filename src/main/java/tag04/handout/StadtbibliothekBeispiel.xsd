@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="bibliothek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadaten"/>
+                <xs:element ref="buecher"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="metadaten">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="adresse"/>
+                <xs:element ref="oeffnungszeiten"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="adresse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="strasse"/>
+                <xs:element ref="ort"/>
+                <xs:element ref="postleitzahl"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="strasse" type="xs:string"/>
+    <xs:element name="ort" type="xs:NCName"/>
+    <xs:element name="postleitzahl" type="xs:integer"/>
+    <xs:element name="oeffnungszeiten">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag"/>
+                <xs:element ref="zeit"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tag" type="xs:NCName"/>
+    <xs:element name="zeit" type="xs:NMTOKEN"/>
+    <xs:element name="buecher">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="buch"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="buch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="titel"/>
+                <xs:element ref="autor"/>
+                <xs:element ref="verlag"/>
+                <xs:element ref="jahr"/>
+                <xs:element ref="seiten"/>
+                <xs:element ref="preis"/>
+                <xs:element ref="verfuegbarkeit"/>
+                <xs:choice>
+                    <xs:element ref="auszeichnungen"/>
+                    <xs:element ref="rezensionen"/>
+                    <xs:element ref="schlagwoerter"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:NCName"/>
+            <xs:attribute name="kategorie" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="titel">
+        <xs:complexType mixed="true">
+            <xs:attribute name="sprache" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="autor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vorname"/>
+                <xs:element ref="nachname"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="vorname" type="xs:string"/>
+    <xs:element name="nachname" type="xs:NCName"/>
+    <xs:element name="verlag" type="xs:string"/>
+    <xs:element name="jahr" type="xs:integer"/>
+    <xs:element name="seiten" type="xs:integer"/>
+    <xs:element name="preis">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:decimal">
+                    <xs:attribute name="waehrung" use="required" type="xs:NCName"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="verfuegbarkeit">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="anzahl"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="anzahl">
+        <xs:complexType>
+            <xs:attribute name="gesamt" use="required" type="xs:integer"/>
+            <xs:attribute name="verliehen" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="auszeichnungen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="auszeichnung"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="auszeichnung">
+        <xs:complexType mixed="true">
+            <xs:attribute name="jahr" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rezensionen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="rezension"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rezension">
+        <xs:complexType mixed="true">
+            <xs:attribute name="autor" use="required" type="xs:NCName"/>
+            <xs:attribute name="datum" use="required" type="xs:NMTOKEN"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="schlagwoerter">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="schlagwort"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="schlagwort" type="xs:string"/>
+</xs:schema>

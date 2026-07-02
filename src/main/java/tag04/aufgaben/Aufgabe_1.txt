@@ -1,0 +1,10 @@
+/* Sie betreiben einen Imbiss und möchten eine Verwaltungssoftware für die verkauften Waren erstellen.
+ * Die Verkaufsware unterteilt sich in Speisen und Getränke. Alle Waren werden in der Basisklasse, von der kein Objekt erstellt werden darf, in einer Liste gespeichert.
+ * Für alle Waren erfassen Sie die Bezeichnung und den Preis. Speisen bestehen zudem aus einer Auflistung der Zutaten, zu Getränken speichern Sie die Füllmenge in Milliliter.
+ * Alle benötigten Daten werden über Konstruktoren erfasst.
+ * Um alle Waren bequem ausgeben zu können, überschreiben Sie die toString-Methode der Klassen. Dabei vermeiden Sie doppelten Code und beachten die Abkapselung und Trennung von Darstellung und Programmlogik.
+ *
+ * Speise und Getränke sind in XML Dateien gespeichert. Eine Datei für Speisen und eine für Getränke (oder gerne auch beides in einer Datei).
+ * Lassen Sie die Waren aus den XML Dateien importieren und ausgeben.
+ * (Siehe Verkaufswaren.xml)
+ */

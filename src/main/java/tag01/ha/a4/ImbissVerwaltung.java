@@ -1,4 +1,4 @@
-package tag01.ha.a4;
+package main.java.tag01.ha.a4;
 
 import java.io.IOException;
 import java.nio.file.Files;

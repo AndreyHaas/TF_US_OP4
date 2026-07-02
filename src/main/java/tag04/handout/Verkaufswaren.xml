@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Document Type Definition: Kann zur Validierung des Dokumentes verwendet werden -->
+<!DOCTYPE Verkaufswaren [
+        <!ELEMENT Verkaufswaren (Speise|Getränk)*>
+        <!ELEMENT Speise (Zutaten)>
+        <!ATTLIST Speise
+                bezeichnung CDATA #REQUIRED
+                preis CDATA #REQUIRED>
+        <!ELEMENT Zutaten (Zutat)*>
+        <!ELEMENT Zutat (#PCDATA)>
+        <!ELEMENT Getränk (#PCDATA)>
+        <!ATTLIST Getränk
+                bezeichnung CDATA #REQUIRED
+                füllmenge CDATA #REQUIRED
+                preis CDATA #REQUIRED>
+        ]>
+<Verkaufswaren>
+    <Speise bezeichnung="Burger" preis="4.99">
+        <Zutaten>
+            <Zutat>Brötchen</Zutat>
+            <Zutat>Rindfleisch-Patties</Zutat>
+            <Zutat>Gurken</Zutat>
+            <Zutat>Ketchup</Zutat>
+        </Zutaten>
+    </Speise>
+
+    <Speise bezeichnung="Pizza Groß" preis="5.99">
+        <Zutaten>
+            <Zutat>Pizzateig</Zutat>
+            <Zutat>Tomatensoße</Zutat>
+            <Zutat>Käse</Zutat>
+            <Zutat>Salami</Zutat>
+        </Zutaten>
+    </Speise>
+
+    <Getränk bezeichnung="Cola" preis="1.49" füllmenge="500"/>
+    <Getränk bezeichnung="Apfelschorle" preis="1.29" füllmenge="500"/>
+
+</Verkaufswaren>

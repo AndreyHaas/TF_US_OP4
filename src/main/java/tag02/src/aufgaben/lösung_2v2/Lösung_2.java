@@ -1,4 +1,6 @@
-package tag02.src.aufgaben.lösung_2v2;
+package main.java.tag02.src.aufgaben.lösung_2v2;
+
+import tag02.src.aufgaben.lösung_2v2.Book;
 
 /*
 Aufgabenstellung: (Mit Hilfe von ChatGPT erstellt)
@@ -34,7 +36,7 @@ public class Lösung_2
 {
 	public static void main(String[] args)
 	{
-		List<Book> bookList = getBookList();
+		List<tag02.src.aufgaben.lösung_2v2.Book> bookList = getBookList();
 		bookList.forEach(System.out::println);
 		System.out.println();
 

@@ -1,4 +1,4 @@
-package tag01.ha.a4;
+package main.java.tag01.ha.a4;
 
 public class Getraenk extends Ware {
   private final int fuellmengeMl;

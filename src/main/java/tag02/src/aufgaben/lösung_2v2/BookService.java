@@ -1,9 +1,10 @@
-package tag02.src.aufgaben.lösung_2v2;
+package main.java.tag02.src.aufgaben.lösung_2v2;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import tag02.src.aufgaben.lösung_2v2.Book;
 
 public class BookService
 {

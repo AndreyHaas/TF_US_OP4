@@ -1,0 +1,27 @@
+1) Welche Klasse in Java stellt einen Client-Socket dar, der eine Verbindung zu einem Server über das Netzwerk herstellen kann?
+
+    A) ServerSocket
+    B) SocketChannel
+    C) DatagramSocket
+    D) Socket
+
+----------------------------------------------------------------------------------
+
+2) Was ist die Hauptaufgabe der 'ServerSocket'-Klasse in Java?
+
+    A) Sie sendet und empfängt Datagramm-Pakete über UDP.
+    B) Sie liest und schreibt Daten von/zu nicht-blockierenden Sockets.
+    C) Sie wartet auf eingehende TCP-Verbindungsanfragen und erzeugt für jede akzeptierte Anfrage einen neuen Socket.
+    D) Sie konvertiert niedrige Netzwerkkommunikationsprotokolle in hochwertige Datenströme.
+
+----------------------------------------------------------------------------------
+
+3) Welche Methode verwenden Sie normalerweise auf einem 'ServerSocket', um auf eine neue eingehende Verbindung zu warten und diese zu akzeptieren?
+
+    A) connect()
+    B) bind()
+    C) listen()
+    D) accept()
+
+----------------------------------------------------------------------------------
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE op4_xml [
+        <!ELEMENT op4_xml (entry)*>
+        <!ELEMENT entry (title,description,date,balance)>
+        <!ATTLIST entry
+                id CDATA #REQUIRED>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT balance (#PCDATA)>
+        <!ATTLIST balance
+                currency CDATA #REQUIRED>
+        ]>
+<op4_xml>
+    <!-- Im Wurzel-Element können beliebig viele andere Elemente enthalten sein -->
+    <entry id="01"> <!-- Elemente können Attribute besitzen -->
+        <title>Meine Erste XML Node</title> <!-- Elemente enthalten entweder andere Elemente oder Text-Content -->
+        <description>Irgend eine Beschreibung</description>
+        <date>2022-07-22</date>
+        <balance currency="EUR">5000</balance>
+    </entry>
+    <entry id="02">
+        <title>Meine Zweite XML Node</title>
+        <description>Irgend eine andere Beschreibung</description>
+        <date>2022-07-20</date>
+        <balance currency="EUR">50000</balance>
+    </entry>
+    <entry id="03">
+        <title>Meine Dritte XML Node</title>
+        <description>Eine weitere Beschreibung</description>
+        <date>2021-07-02</date>
+        <balance currency="USD">500000</balance>
+    </entry>
+</op4_xml>
