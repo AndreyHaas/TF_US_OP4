@@ -1,0 +1,34 @@
+1. Was ist eine Java Bean?
+
+    a) Eine Java Bean ist ein Programmierkonzept in der Webentwicklung, das sich auf die Verwendung von Javaserver Pages (JSP) bezieht.
+
+    b) Eine Java Bean ist eine spezielle Klasse in der objektorientierten Programmierung, die bestimmte Konventionen erfüllt und zur Erstellung wiederverwendbarer Komponenten verwendet wird.
+
+In der Webentwicklung werden Java Beans häufig verwendet, um Daten zwischen einer JSP-Seite und einem Servlet auszutauschen. Sie können auch für andere Aufgaben wie Validierung von Eingaben oder Berechnung von Werten verwendet werden.
+
+----------------------------------------------------------------------------------
+
+2. Was genau zeichnet eine Java Bean aus?
+
+    a) Objekte sind serialisierbar.
+    b) Hat einen Konstruktor ohne Parameter.
+    c) Enthält Getter und Setter für jede Eigenschaft.
+
+----------------------------------------------------------------------------------
+
+3. Was ist ein Vorteil von Java Beans gegenüber herkömmlichen Objekten?
+
+    b) Sie haben standardisierte Schnittstellen zur Interaktion mit anderen Komponenten.
+
+- Serializable: Eine Java Bean sollte das Serializable-Interface implementieren, um ihre Zustände serialisierbar zu machen.
+- PropertyChangeListener: Ein PropertyChangeListener wird verwendet, um Änderungen an einer Eigenschaft der Bean zu überwachen.
+- VetoableChangeListener: Ein VetoableChangeListener wird verwendet, um Änderungen an einer Eigenschaft der Bean abzulehnen, wenn sie gegen bestimmte Regeln verstoßen.
+- java.beans.Beans: Die Beans-Klasse enthält eine Reihe von Utility-Methoden für die Arbeit mit Beans und kann beispielsweise zum Erstellen neuer Instanzen von Beans verwendet werden.
+
+----------------------------------------------------------------------------------
+
+4. Welche Arten von Eigenschaften können in einer Java Bean definiert werden?
+
+    c) Eingeschränkte Eigenschaften, deren Änderung abgelehnt werden können.
+
+    d) Gebundene Eigenschaften, mit PropertyChangeListener

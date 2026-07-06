@@ -1,0 +1,21 @@
+1) Was ist JSON in Bezug auf Datenaustauschformate?
+
+    C) Ein leichtgewichtiges Datenformat zum Austausch von Daten zwischen Server und Client.
+
+----------------------------------------------------------------------------------
+
+2) Welche Java-Bibliothek wird häufig für die JSON Serialisierung und Deserialisierung verwendet?
+
+    C) Jackson
+
+----------------------------------------------------------------------------------
+
+3) Welcher Datentyp wird in JSON NICHT unterstützt?
+
+    C) DateTime
+
+----------------------------------------------------------------------------------
+
+4) Welche HTTP Methode wird in RESTful APIs verwendet, um eine Resource abzufragen?
+
+    B) GET

@@ -1,4 +1,4 @@
-package tag02.unterricht.models;
+package main.java.tag02.unterricht.models;
 
 import java.util.Objects;
 

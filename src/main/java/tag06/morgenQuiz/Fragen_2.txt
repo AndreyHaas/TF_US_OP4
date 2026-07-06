@@ -1,0 +1,32 @@
+1. Was ist eine Java Bean?
+
+    a) Eine Java Bean ist ein Programmierkonzept in der Webentwicklung, das sich auf die Verwendung von Javaserver Pages (JSP) bezieht.
+    b) Eine Java Bean ist eine spezielle Klasse in der objektorientierten Programmierung, die bestimmte Konventionen erfüllt und zur Erstellung wiederverwendbarer Komponenten verwendet wird.
+    c) Eine Java Bean bezieht sich auf einen speziellen Algorithmus für das Sortieren von Daten in einer Liste oder einem Array.
+
+----------------------------------------------------------------------------------
+
+2. Was genau zeichnet eine Java Bean aus?
+
+    a) Objekte sind serialisierbar.
+    b) Hat einen Konstruktor ohne Parameter.
+    c) Enthält Getter und Setter für jede Eigenschaft.
+    d) Implementiert immer das Singleton-Pattern.
+
+----------------------------------------------------------------------------------
+
+3. Was ist ein Vorteil von Java Beans gegenüber herkömmlichen Objekten?
+
+    a) Sie können nicht serialisiert werden.
+    b) Sie haben standardisierte Schnittstellen zur Interaktion mit anderen Komponenten.
+    c) Sie erfordern keine Getter- und Setter-Methoden.
+    d) Es gibt keinen Unterschied zwischen einer normalen Klasse und einer Bean.
+
+----------------------------------------------------------------------------------
+
+4. Welche Arten von Eigenschaften können in einer Java Bean definiert werden?
+
+    a) Versteckte Eigenschaften, mit der "@Secret" Annotation
+    b) Zufällige Eigenschaften, werden automatisch mit Random befüllt
+    c) Eingeschränkte Eigenschaften, deren Änderung abgelehnt werden können.
+    d) Gebundene Eigenschaften, mit PropertyChangeListener

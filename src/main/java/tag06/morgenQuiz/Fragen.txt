@@ -1,0 +1,33 @@
+1) Was ist JSON in Bezug auf Datenaustauschformate?
+
+    A) Eine Programmiersprache, die speziell für die Webentwicklung entwickelt wurde.
+    B) Ein Datenbankmanagementsystem, das NoSQL-Technologien verwendet.
+    C) Ein leichtgewichtiges Datenformat zum Austausch von Daten zwischen Server und Client.
+    D) Ein Protokoll zur Verschlüsselung von Nachrichten in einer Client-Server-Architektur.
+
+----------------------------------------------------------------------------------
+
+2) Welche Java-Bibliothek wird häufig für die JSON Serialisierung und Deserialisierung verwendet?
+
+    A) JDBC
+    B) JAXB
+    C) Jackson
+    D) JAX-WS
+
+----------------------------------------------------------------------------------
+
+3) Welcher Datentyp wird in JSON NICHT unterstützt?
+
+    A) String
+    B) Number
+    C) DateTime
+    D) Boolean
+
+----------------------------------------------------------------------------------
+
+4) Welche HTTP Methode wird in RESTful APIs verwendet, um eine Resource abzufragen?
+
+    A) POST
+    B) GET
+    C) UPDATE
+    D) SELECT

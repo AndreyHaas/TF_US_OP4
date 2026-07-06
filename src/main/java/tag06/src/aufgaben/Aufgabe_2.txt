@@ -1,0 +1,9 @@
+/*
+Schreiben Sie eine Klasse "Konto", die folgende Eigenschaften hat: Kontonummer (eindeutiger Integer), Kontostand (double) und Inhaber (Person-Objekt). Implementieren Sie diese Klasse als Java Bean, indem Sie private Felder für jede Eigenschaft erstellen und öffentliche Getter- und Setter-Methoden für den Zugriff auf diese Felder bereitstellen.
+
+Schreiben Sie dann ein kleines Programm, das mehrere Instanzen der Konto-Klasse erstellt. Legen Sie einige Werte für die Kontonummer, den Kontostand und den Inhaber fest. Verwenden Sie dann die Getter-Methoden, um sicherzustellen, dass die Werte korrekt gespeichert wurden.
+
+Erweitern Sie das Programm nun um eine Methode "transfer()", mit der Geld von einem Konto auf ein anderes überwiesen werden kann. Die Methode sollte drei Parameter haben: das Quellkonto und das Zielkonto sowie einen Betrag zum Überweisen.
+
+Implementieren Sie einen PropertyChangeSupport für den Kontostand. Wird der Kontostand geändert, soll die Main-Klasse den aktuellen Kontostand ausgeben.
+ */
