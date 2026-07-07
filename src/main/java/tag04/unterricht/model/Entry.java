@@ -5,14 +5,14 @@ import java.util.StringJoiner;
 
 public class Entry {
 
-  private final double id;
+  private final String id;
   private final String title;
   private final String description;
   private final LocalDate date;
   private final int balance;
   private final String currency;
 
-  public Entry(double id, String title, String description, LocalDate date, int balance,
+  public Entry(String id, String title, String description, LocalDate date, int balance,
       String currency) {
     this.id = id;
     this.title = title;
@@ -22,7 +22,7 @@ public class Entry {
     this.currency = currency;
   }
 
-  public double getId() {
+  public String getId() {
     return id;
   }
 

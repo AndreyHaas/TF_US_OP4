@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<op4_xml>
+    <entry id="01">
+        <title>Meine Erste XML Node</title>
+        <description>Irgend eine Beschreibung</description>
+        <date>2022-07-22</date>
+        <currency currency="EUR">5000</currency>
+    </entry>
+    <entry id="02">
+        <title>Meine Zweite XML Node</title>
+        <description>Irgend eine andere Beschreibung</description>
+        <date>2022-07-20</date>
+        <currency currency="EUR">50000</currency>
+    </entry>
+    <entry id="03">
+        <title>Meine Dritte XML Node</title>
+        <description>Eine weitere Beschreibung</description>
+        <date>2021-07-02</date>
+        <currency currency="USD">500000</currency>
+    </entry>
+</op4_xml>
