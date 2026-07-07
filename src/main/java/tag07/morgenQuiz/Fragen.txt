@@ -1,0 +1,24 @@
+1) Was ist die Funktion von DTD (Document Type Definition) in XML?
+
+    A) Sie definiert die Struktur und den Typ der Daten innerhalb einer XML-Datei.
+    B) Sie transformiert eine XML-Datei in ein anderes Format, wie HTML oder Text.
+    C) Sie fügt dynamische Inhalte zu einer bestehenden XML-Datei hinzu.
+    D) Sie verschlüsselt den Inhalt einer XML-Datei für sichere Übertragungen.
+
+----------------------------------------------------------------------------------
+
+2) Was beschreibt XPath im Kontext von XML?
+
+    A) Eine Sprache zum Definieren von XML-Schemas.
+    B) Eine Sprache zum Abfragen und Manipulieren der Struktur einer XML-Datei.
+    C) Ein Protokoll zur entfernten Kommunikation zwischen Webdiensten.
+    D) Ein Werkzeug zum Konvertieren von XML-Daten in JSON-Datenformate.
+
+----------------------------------------------------------------------------------
+
+3) Wie erstellt man ein neues Element in einem bestehenden DOM-Baum mit dem Java DOM Parser?
+
+    A) Mit der Methode 'createElement()' des 'Document' Objekts gefolgt von 'appendChild()', um es an einen bestimmten Knoten anzufügen.
+    B) Indem man die Methode 'createNode()' des 'Node' -Objekts verwendet und sie dann mit 'insertNode()' in den Baum einfügt.
+    C) Durch direktes Schreiben eines neuen Elements als String in das Dokument mittels OutputStream.
+    D) Mit Hilfe des XSLT-Prozessors, um neue Elemente zur Laufzeit hinzuzufügen.

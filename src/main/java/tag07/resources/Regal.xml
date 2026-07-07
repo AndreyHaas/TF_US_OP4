@@ -1,0 +1,38 @@
+<Regal>
+	<Fach>
+		<Buch id="43">
+			<title>Title für jeden</title>
+			<description>Buch über Title</description>
+			<date>2022-07-22</date>
+			<price currency="EUR">20</price>
+		</Buch>
+		<Buch id="2">
+			<title>Meine Erste XML Datei</title>
+			<description>Formatierung des grauens</description>
+			<date>2020-07-22</date>
+			<price currency="EUR">50</price>
+		</Buch>
+	</Fach>
+	<Fach>
+		<Buch id="5">
+			<title>Bucht buchungen für Anfänger</title>
+			<description>Einfallslose Wasserfälle</description>
+			<date>2020-07-22</date>
+			<price currency="EUR">5000</price>
+		</Buch>
+		<Buch id="74">
+			<title>Chronisch komisch</title>
+			<description>Ein witz</description>
+			<date>2019-07-02</date>
+			<price currency="EUR">30</price>
+		</Buch>
+	</Fach>
+	<Fach>
+		<Buch id="3">
+			<title>Meine Erste XML Node, II</title>
+			<description>Die verbesserte Formatierung</description>
+			<date>2023-05-22</date>
+			<price currency="EUR">60</price>
+		</Buch>
+	</Fach>
+</Regal>

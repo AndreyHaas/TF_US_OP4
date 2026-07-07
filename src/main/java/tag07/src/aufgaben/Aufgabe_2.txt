@@ -1,0 +1,25 @@
+Gegeben ist eine JSON-Datei mit folgendem Inhalt:
+
+{
+  "name": "Jenny Azad",
+  "age": 30,
+  "address": {
+    "street": "Musterstraße",
+    "number": 123,
+    "city": "Musterstadt"
+  },
+  "hobbies": ["lesen", "schwimmen", "reisen"]
+}
+
+
+Schreiben Sie ein Java-Programm, das diese Datei einliest und die Daten in einem Objekt speichert.
+Erstellen Sie anschließend eine Methode `printData()`, die alle Daten des Objekts auf der Konsole ausgibt.
+
+Beispiel-Ausgabe:
+
+---
+Name: Jenny Azad
+Alter: 30
+Adresse: Musterstraße 123, Musterstadt
+Hobbys: lesen, schwimmen, reisen
+---

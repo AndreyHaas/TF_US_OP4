@@ -1,0 +1,33 @@
+Server Client Anwendung mit Übertragung verschiedener Daten
+
+Rahmenbedingungen: 
+Bitte diese Aufgabe unter Prüfung ähnlichen Voraussetzungen lösen.
+Alle Unterlagen und das Internet stehen zur Verfügung.
+Es soll darauf abgezielt werden gelerntes abzufragen. Die Aufgabe soll in ca. 4 Stunden umgesetzt werden. Zwischendurch Pause machen :)
+
+Erstellen Sie ein Programm welches die vorliegenden Informationen ( Regal.XML Datei ) einließt. Erstellen Sie eine entsprechende Klasse "Buch" mit den vorhandenen Attributen. Erzeugen Sie Instanzen der Bücher. Serialisieren Sie die Bücher-Objekte und übertragen Sie diese an den Server. 
+Der Server soll die Bücher in ihrer Reihenfolge sortieren, welche Eigenschaft Sie dafür nutzen ist frei zu entscheiden. Notfalls nach ID. Der Client wird über die neue Reihenfolge informiert. Schreiben Sie die neue Reihenfolge in eine neue JSON Datei als Ergebnis des Prozesses.
+
+Der Server soll nach dem Aufbau der Verbindung mit dem Client, die folgenden Aufgaben übernehmen.
+1. Entgegennehmen der Daten des Clients
+2. Sortieren der Daten
+3. Neue Reihenfolge an Client senden
+
+Client-Seite, grober Ablauf:
+1. Lese XML-Datei ein
+2. Erstelle eine geeignete Klasse, die zur Instanziierung der Bücher genutzt werden kann.
+3. Verbindungsaufbau
+4. Übermitteln der Daten
+ 	Server sortiert
+5. Neue Reihenfolge herunterladen.
+6. Neue Reihenfolge der Bücher als Liste in JSON-Datei schreiben. Name: neue_Liste.json
+	Nutzen sie dabei die Bibliothek: jackson ( core, core.annotations, core.bindings )
+	// Jackson ist eine Mehrzweck-Java-Bibliothek zur Verarbeitung von JSON-Daten.
+	// Download hier: https://github.com/FasterXML/jackson-core/wiki
+	// Oder hier: https://repo1.maven.org/maven2/com/fasterxml/jackson/core/
+
+	// Importieren von Bibliotheken, z.B. den MySQL Connector:
+	// https://www.jetbrains.com/help/idea/library.html
+	
+
+
