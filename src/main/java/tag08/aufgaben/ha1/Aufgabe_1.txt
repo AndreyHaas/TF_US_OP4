@@ -1,0 +1,7 @@
+1a)
+Erstellen Sie eine Klasse Auto. Diese soll 3 Attribute beinhalten
+=> Farbe, Geschwindigkeit, Marke (nutzen Sie hierfür geeignete Datentypen)
+Ein Objekt davon soll nun in eine JSON-Datei serialisiert werden
+
+1b)
+De-Serialisieren Sie nun das Auto JSON Object in ein Java Object.

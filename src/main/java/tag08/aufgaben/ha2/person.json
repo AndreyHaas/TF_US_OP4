@@ -1,0 +1,14 @@
+{
+  "name": "Jenny Azad",
+  "age": 30,
+  "address": {
+    "street": "Musterstraße",
+    "number": 123,
+    "city": "Musterstadt"
+  },
+  "hobbies": [
+    "lesen",
+    "schwimmen",
+    "reisen"
+  ]
+}
