@@ -1,12 +1,13 @@
 package main.java.tag06.unterricht;
 
-import jakarta.validation.constraints.Email;
+
+import org.jetbrains.annotations.NotNull;
+
 import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.StringJoiner;
-import jakarta.validation.constraints.NotNull;
 
 public class PersonBeanMein implements Serializable {
 
@@ -22,7 +23,6 @@ public class PersonBeanMein implements Serializable {
   @NotNull
   private LocalDate date;
 
-  @Email
   @NotNull
   private String email;
 
