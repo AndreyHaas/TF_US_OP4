@@ -29,7 +29,7 @@
         <configuration>
           <filesets>
             <fileset>
-              <directory>out</directory>
+              <directory>src/out</directory>
             </fileset>
           </filesets>
         </configuration>
