@@ -14,7 +14,7 @@ public class Server {
     private static volatile boolean running = true;
     private static int clientCount = 0;
 
-    public static void main(String[] args) {
+    static void main() {
         System.out.println("=== Bücher-Server gestartet ===");
         System.out.println("Port: " + PORT);
         System.out.println("Max Clients: " + MAX_CLIENTS);
@@ -50,7 +50,7 @@ public class Server {
                     thread.start();
                     System.out.println("   ✅ ClientHandler gestartet (Thread: " + thread.getName() + ")");
 
-                } catch (SocketTimeoutException ignored) {
+                } catch (SocketTimeoutException _) {
                     // Timeout ist normal
                 }
             }

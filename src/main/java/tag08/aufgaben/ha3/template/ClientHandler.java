@@ -22,24 +22,19 @@ public class ClientHandler implements Runnable {
         try {
             System.out.println("   ⏳ Warte auf Daten vom Client...");
 
-            // WICHTIG: Zuerst ObjectInputStream, dann ObjectOutputStream
-            // oder umgekehrt, aber BEIDE Seiten müssen gleiche Reihenfolge haben!
             try (ObjectInputStream in = new ObjectInputStream(socket.getInputStream());
                  ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream())) {
 
                 System.out.println("   📥 Streams erstellt.");
 
-                // Bücher empfangen
-                @SuppressWarnings("unchecked")
+                //@SuppressWarnings("unchecked")
                 List<Buch> buecher = (List<Buch>) in.readObject();
                 System.out.println("   ✅ " + buecher.size() + " Bücher empfangen.");
 
-                // Sortieren
                 System.out.println("   🔄 Sortiere Bücher nach ID...");
                 Collections.sort(buecher);
                 System.out.println("   ✅ Sortierung abgeschlossen.");
 
-                // Zurücksenden
                 System.out.println("   📤 Sende sortierte Bücher zurück...");
                 out.writeObject(buecher);
                 out.flush();
