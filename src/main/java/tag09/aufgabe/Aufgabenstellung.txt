@@ -1,0 +1,17 @@
+Erstellen Sie folgende Client-Server Anwendung:
+Sie managen eine Gruppe von Superhelden, die ihre abgeschlossenen Rettungsmissionen über ein Terminal melden sollen.
+Erstellen Sie eine Server-Anwendung, die eine eingehende Verbindung von Clients akzeptiert und eine Bestätigung 
+über den erfolgreichen Abschluss der Mission erwartet. Der Superheld (Client) sendet den Abschlussbericht seiner Mission 
+an den Server.
+
+Der Server speichert den Bericht in einer Datei "MissionBericht.txt". Der Superheld bestätigt den Abschluss der Mission 
+durch Eingabe seiner Helden-ID. Diese Helden-ID wird vom Client an den Server geschickt. Stimmt die ID, wird der Bericht 
+gespeichert und dem Superhelden vom Server gratuliert.
+
+(Die ID können Sie fest im Server einprogrammieren, z.B. "1234".)
+
+Beispiel "MissionBericht.txt"
+Held: Superman
+Mission: Erfolgreich abgeschlossen
+Details: Die Stadt wurde vor dem Meteor gerettet und alle Bürger sind sicher.
+
