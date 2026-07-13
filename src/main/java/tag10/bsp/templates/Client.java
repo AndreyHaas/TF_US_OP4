@@ -1,13 +1,16 @@
 package main.java.tag10.bsp.templates;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import static main.java.tag10.bsp.templates.Server.ENDE;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.Scanner;
-
-import static template.Server.ENDE;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Client {
 
